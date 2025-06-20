@@ -42,9 +42,9 @@
     }
   </style>
 </head>
-<body>
+<body onload="openChat()">
 
-<p style="display: none;">Hello world! This is HTML5 Boilerplate.</p>
+<p style="display: none;">Live Chat Support</p>
 
 <!-- Inline JS if needed -->
 <script>
@@ -67,7 +67,7 @@
 
   <script>
     function openChat () {
-      chatButton = document.querySelector("button");
+      let chatButton = document.querySelector("button");
       chatButton.click();
     }
   </script>
