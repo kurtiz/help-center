@@ -67,8 +67,9 @@
 
   <script>
     function openChat () {
-      let chatButton = document.querySelector("button");
-      chatButton.click();
+      let chatButton = document.querySelector(".tawk-min-container")
+      chatButton.childNodes[1].childNodes[0].childNodes[1].click()
+      // chatButton.click();
     }
   </script>
 
